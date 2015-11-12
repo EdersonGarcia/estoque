@@ -89,7 +89,7 @@ environments:
         dataSource:
             driverClassName: org.postgresql.Driver
             dialect: org.hibernate.dialect.PostgreSQL9Dialect
-            dbCreate: none
+            dbCreate: update
             url: jdbc:postgresql://localhost:5432/estoque
             username: postgres
             password: 12345678

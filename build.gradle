@@ -65,7 +65,7 @@ dependencies {
 
     runtime "org.grails.plugins:asset-pipeline"
     //DRIVER POSTGRESQL
-   // runtime "org.postgresql:postgresql:9.3-1101-jdbc41"
+    runtime "org.postgresql:postgresql:9.3-1101-jdbc41"
     //MYSQL
     //  runtime "mysql:mysql-connector-java:5.1.35
 

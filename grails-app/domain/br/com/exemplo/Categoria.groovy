@@ -8,6 +8,6 @@ class Categoria {
     }
 
     String toString(){
-        "$id - $descricao"
+        " Id:$id - $descricao"
     }
 }
