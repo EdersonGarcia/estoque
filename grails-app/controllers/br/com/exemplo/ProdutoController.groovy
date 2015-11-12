@@ -2,5 +2,5 @@ package br.com.exemplo
 
 class ProdutoController {
 
-    def index() { }
+   static  scaffold = Produto
 }

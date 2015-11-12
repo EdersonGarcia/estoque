@@ -4,7 +4,7 @@ class Produto {
 
     String nome
     String descricao
-    Categoria categoria
+    static belongsTo = [categoria:Categoria]
 
 
     static constraints = {

@@ -3,6 +3,7 @@ package br.com.exemplo
 import grails.converters.JSON
 
 class CategoriaController {
+    def meuService
 
     static scaffold = Categoria
 
@@ -21,12 +22,17 @@ class CategoriaController {
     def mostrar (){
 
         def idCategoria = params.id
-        def categoria = Categoria.get(idCategoria)
 
-        [categoria:categoria]
-
+        [categoria: meuService.buscaCategoria(idCategoria)]
 
 
+    }
+
+    def listarTodos(){
+        def categoria = Categoria.list()
+
+
+        [categorias:categoria]
     }
 
 
