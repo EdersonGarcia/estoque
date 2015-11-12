@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Thumbs.db
 .DS_Store
 .gradle
@@ -9,3 +10,13 @@ build/
 .project
 .settings
 .classpath
+=======
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+>>>>>>> faf0c7537ebec3743c7f7d1483943454887755c1
