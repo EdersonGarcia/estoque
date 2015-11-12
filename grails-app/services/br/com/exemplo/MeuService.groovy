@@ -5,7 +5,7 @@ import grails.transaction.Transactional
 @Transactional
 class MeuService {
 
-    def buscaCategoria(Long id) {
+    def buscaCategoria(def id) {
         def categoria = Categoria.get(id)
         categoria
     }
