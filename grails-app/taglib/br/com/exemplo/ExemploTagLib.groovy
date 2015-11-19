@@ -36,7 +36,7 @@ class ExemploTagLib {
             <ul class="nav navbar-nav">
             """
          menus.each {menu->
-              out << ' <li><a href="#"> '
+             out << ' <li><a href="#"> '
              out << menu
              out <<'<span class="sr-only">(current)</span></a></li>'
 

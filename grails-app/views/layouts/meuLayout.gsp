@@ -9,15 +9,18 @@
 <html>
 <head>
     <title> <g:layoutTitle default="Sem Titulo"/> </title>
-    <asset:javascript src="jquery-2.1.3.js"/>
     <asset:stylesheet src="bootstrap-all"/>
-    <asset:javascript  src="bootstrap-all"/>
+
 
     <g:layoutHead/>
 </head>
-
 <body>
-
-<g:layoutBody/>
+<div class="container">
+    <div class="col-md-12">
+        <g:layoutBody/>
+    </div>
+</div>
+<asset:javascript  src="bootstrap-all"/>
+<asset:javascript src="jquery-2.1.3.js"/>
 </body>
 </html>

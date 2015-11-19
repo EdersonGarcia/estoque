@@ -19,7 +19,7 @@
 <div class="container">
 
     <div class="col-xs-3">
-        <g:form action="cadastrar" controller="categoria">
+        <g:form action="salvar" controller="categoria">
             <div class="form-group">
                 <input type="text" name="descricao" class="form-control" placeholder="Digite a Descricao da categoria">
             </div>

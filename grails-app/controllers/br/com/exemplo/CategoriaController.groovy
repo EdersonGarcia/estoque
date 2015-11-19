@@ -1,12 +1,19 @@
 package br.com.exemplo
 
 import grails.converters.JSON
+import grails.plugin.springsecurity.annotation.Secured
 
+@Secured(['ROLE_ADMIN'])
 class CategoriaController {
     def meuService
 
-    static scaffold = Categoria
-
+//        static defaultAction = "listarTodos"
+    @Secured(['ROLE_ADMIN'])
+   def index(){
+        println (meuService.retornaUsuarioOnline())
+        render Categoria.list()
+    }
+    @Secured(['ROLE_USUARIO','ROLE_ADMIN'])
     def cadastrar(){
 
     }
