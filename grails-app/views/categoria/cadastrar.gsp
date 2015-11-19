@@ -8,17 +8,27 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
+    <meta name="layout" content="meuLayout"/>
+
     <title></title>
 </head>
 
 <body>
 
-    <g:form action="cadastrar" controller="categoria">
-        <input name="descricao" placeholder="Digite a Descricao da categoria">
 
-        <button>Criar</button>
+<div class="container">
 
-    </g:form>
+    <div class="col-xs-3">
+        <g:form action="cadastrar" controller="categoria">
+            <div class="form-group">
+                <input type="text" name="descricao" class="form-control" placeholder="Digite a Descricao da categoria">
+            </div>
+            <button class="btn btn-success">Criar</button>
+
+        </g:form>
+    </div>
+</div>
+
 
 </body>
 </html>

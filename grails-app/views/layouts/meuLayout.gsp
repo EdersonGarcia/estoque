@@ -17,8 +17,7 @@
 </head>
 
 <body>
-    <h1> Meu Layout </h1>
+
 <g:layoutBody/>
-<h1> Depois layoutBody</h1>
 </body>
 </html>

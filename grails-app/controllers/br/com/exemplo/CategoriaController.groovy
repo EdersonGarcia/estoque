@@ -7,7 +7,10 @@ class CategoriaController {
 
     static scaffold = Categoria
 
-    def cadastrar (){
+    def cadastrar(){
+
+    }
+    def salvar (){
 
         def descricao = params.descricao
 

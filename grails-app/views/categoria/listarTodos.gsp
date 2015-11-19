@@ -13,15 +13,14 @@
 </head>
 
 <body>
-<g:render template="meuTemplate"/>
-<div class="navbar-right">
+%{--<g:render template="meuTemplate"/>--}%
+%{--<div class="navbar-right">--}%
 
-</div>
-<exemplo:colocaH1 text="Exemplo">
-    asdasdasuhdasodhasoiuasiodasiod
-    </exemplo:colocaH1>
+%{--</div>--}%
+<exemplo:criarMenu menus="['Listar Todos','Produto']"/>
+
     <div class="container">
-     <div class="col-md-12">
+     <div class="col-md-6">
          <table class="table table-striped ">
              <thead>
              <tr>
