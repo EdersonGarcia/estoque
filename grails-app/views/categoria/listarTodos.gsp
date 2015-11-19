@@ -8,18 +8,19 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
-    <title></title>
-    <asset:javascript src="jquery-2.1.3.js"/>
-    <asset:stylesheet src="bootstrap-all"/>
-    <asset:javascript  src="bootstrap-all"/>
-
+    <title>Listar Todos</title>
+   <meta name="layout" content="meuLayout"/>
 </head>
 
 <body>
+<g:render template="meuTemplate"/>
 <div class="navbar-right">
 
 </div>
- <div class="container">
+<exemplo:colocaH1 text="Exemplo">
+    asdasdasuhdasodhasoiuasiodasiod
+    </exemplo:colocaH1>
+    <div class="container">
      <div class="col-md-12">
          <table class="table table-striped ">
              <thead>
